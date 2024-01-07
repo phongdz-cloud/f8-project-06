@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Embedded font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header class="bg-[#FFFAF5]">
+      <div
+        class="w-[1140px] ml-auto mr-auto flex justify-between items-center pt-[32px]"
+      >
+        <div class="flex items-center gap-2">
+          <img
+            src="./assets/icons/logo.svg"
+            alt="Lucy"
+            class="cursor-pointer"
+          />
+        </div>
+
+        <nav>
+          <ul class="flex items-center gap-[32px]">
+            <li>
+              <a
+                class="font-light text-[#5E6085] text-[14px] cursor-pointer p-4 hover:text-[#000958] hover:font-bold"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-light text-[#5E6085] text-[14px] cursor-pointer p-4 hover:text-[#000958] hover:font-bold"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-light text-[#5E6085] text-[14px] cursor-pointer p-4 hover:text-[#000958] hover:font-bold"
+                >Services & Rates</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-light text-[#5E6085] text-[14px] cursor-pointer p-4 hover:text-[#000958] hover:font-bold"
+                >Review</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-light text-[#5E6085] text-[14px] cursor-pointer p-4 hover:text-[#000958] hover:font-bold"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <button
+            class="text-[14px] text-[#000958] font-bold w-[117px] h-[50px] border-solid border-[1px] border-[#000958] rounded-[25px]"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section class="bg-[#FFFAF5] pt-[107px] h-[758px]">
+      <div class="w-[1140px] ml-auto mr-auto flex gap-[283px]">
+        <!-- Image -->
+        <div class="relative">
+          <div
+            class="w-[186px] h-[244px] overflow-hidden absolute bottom-[-50px] left-[380px] z-10 scale-[1.2] bg-[#FAA7AD] rounded-[16px]"
+          >
+            <div>
+              <img
+                src="./assets/imgs/hero-img-2.png"
+                alt=""
+                class="absolute object-contain top-[100px] left-[-40px] scale-[2.2]"
+              />
+            </div>
+          </div>
+
+          <img
+            src="./assets/icons/union.svg"
+            alt=""
+            class="absolute right-[-40px] top-[17px]"
+          />
+
+          <img
+            src="./assets/icons/union-2.svg"
+            alt=""
+            class="absolute left-[-60px] bottom-[15px]"
+          />
+
+          <div
+            class="flex flex-col gap-[10px] w-[250px] h-[156px] absolute z-30 bg-[#fff] bottom-[-100px] right-[10px] rounded-[10px] pl-[14px]"
+            style="box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25)"
+          >
+            <div class="flex gap-[10px]">
+              <div
+                class="w-[40px] h-[40px] bg-[#FEC23F] rounded-[10px] mt-[18px] overflow-hidden relative"
+              >
+                <img
+                  src="./assets/imgs/hero-img-3.svg"
+                  alt=""
+                  class="absolute top-[3px] left-[-0.5px]"
+                />
+              </div>
+              <div class="mt-[15px] flex flex-col gap-[7px]">
+                <p class="text-[#181E52] text-[14px] font-bold">Pet Health</p>
+                <div
+                  class="w-[118px] h-[4px] rounded-[10px] opacity-[0.08] bg-[#000958]"
+                ></div>
+                <div
+                  class="w-[39px] h-[4px] rounded-[10px] opacity-[0.08] bg-[#000958]"
+                ></div>
+              </div>
+            </div>
+
+            <div
+              class="w-[222px] h-[2px] bg-[#F2F2F2] mt-[10px] mb-[5px]"
+            ></div>
+
+            <div class="flex gap-[10px]">
+              <div
+                class="w-[40px] h-[40px] bg-[#6597C2] rounded-[10px] overflow-hidden relative"
+              >
+                <img
+                  src="./assets/imgs/hero-img-4.svg"
+                  alt=""
+                  class="absolute top-[3px] left-[-0.5px]"
+                />
+              </div>
+              <div class="flex flex-col gap-[5px]">
+                <p class="text-[#181E52] text-[14px] font-bold">Pet Health</p>
+                <div
+                  class="w-[118px] h-[4px] rounded-[10px] opacity-[0.08] bg-[#000958]"
+                ></div>
+                <div
+                  class="w-[39px] h-[4px] rounded-[10px] opacity-[0.08] bg-[#000958]"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-[#FE997B] w-[388px] h-[488px] relative overflow-hidden border-solid border-[1px] border-[#FE997B] rounded-[16px]"
+          >
+            <img
+              src="./assets/imgs/hero-img-1.png"
+              alt=""
+              class="w-[457.238px] h-[828.145px] object-cover rotate-[5.278deg] absolute top-[-60px] left-[10px] scale-[1.2]"
+            />
+          </div>
+        </div>
+        <!-- Content -->
+        <div>
+          <h1
+            class="font-bold text-[#000958] text-[66px] leading-[76px] mt-[71px]"
+            style="font-family: Sora"
+          >
+            Established & Trusted Pet Care Service
+          </h1>
+          <p
+            class="font-normal text-[18px] text-[#656689] leading-[30px] mt-[24px]"
+          >
+            Discover a wide variety of Pawsitive services to choose from,
+            including daycare, private walks, office duty and spa.
+          </p>
+
+          <div class="flex mt-[38px] items-center gap-[24px]">
+            <div class="flex items-center">
+              <div
+                class="bg-[#FF5B2E] w-[189px] h-[60px] rounded-[31px] flex justify-center items-center gap-[10px]"
+                style="box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42)"
+              >
+                <button
+                  class="font-semibold text-[16px] text-[#fff] leading-[16px]"
+                >
+                  Book a Meet
+                </button>
+                <div
+                  class="w-[20px] h-[20px] bg-[#fff] rounded-[50%] flex justify-center items-center"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <p
+              class="text-[16px] text-[#000958] font-medium underline underline-offset-2"
+            >
+              Schedule a Call
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
